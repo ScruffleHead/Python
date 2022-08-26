@@ -32,6 +32,7 @@ recipes={"air water":"mist",
          "fish metal":"submarine",
          "fish electricity":"eel",}
 discovered=["air", "earth", "fire", "water"]
+
 def ask():
     response=input("Please input two found elements. Add a space between the two elements, and the two elements must be in alphabetical order. Say \"LIST\" to see current list of elements.")
     if response.upper()=="LIST":
